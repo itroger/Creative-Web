@@ -1,182 +1,182 @@
-/* CSS 注释 */                        /* CSS 注释格式 */
-/* example.css */                     /* CSS 文件后缀 */
+/* CSS 注释 */                                                                   /* CSS 注释格式 */
+/* example.css */                                                               /* CSS 文件后缀 */
 /* 基本选择器 */
-a {}                                  /* 元素选择器 */
-#id {}                                /* ID 选择器 */
-.class {}                             /* 类选择器 */
-* {}                                  /* 通配选择器 */
-a[href="example.com/"] {}             /* 属性选择器 */
+a {}                                                                            /* 元素选择器 */
+#id {}                                                                          /* ID 选择器 */
+.class {}                                                                       /* 类选择器 */
+* {}                                                                            /* 通配选择器 */
+a[href="example.com/"] {}                                                       /* 属性选择器 */
 /* 组合选择器 */
-A + B {}                              /* A元素后的第一个兄弟元素B */
-A ~ B {}                              /* A元素后的所有兄弟元素B */
-A > B {}                              /* A元素后的所有子类元素B */
-A B {}                                /* A元素后的所有后代元素B */
-A, B {}                               /* 选择A元素和B元素 */
-A.B {}                                /* 筛选A元素同级中含有类型B的元素 */
+A + B {}                                                                        /* A元素后的第一个兄弟元素B */
+A ~ B {}                                                                        /* A元素后的所有兄弟元素B */
+A > B {}                                                                        /* A元素后的所有子类元素B */
+A B {}                                                                          /* A元素后的所有后代元素B */
+A, B {}                                                                         /* 选择A元素和B元素 */
+A.B {}                                                                          /* 筛选A元素同级中含有类型B的元素 */
 /* 伪类 */
-a:link {}                             /* 未访问 */
-a:visited {}                          /* 已访问 */
-a:hover {}                            /* 鼠标悬停 */
-a:active {}                           /* 激活 */
-.class:checked {}                     /* radio、checkbox和option的选中状态 */
-.class:disabled {}                    /* 禁用状态 */
-.class:enabled {}                     /* 启用状态 */
-.class:first-child {}                 /* 同级第一个元素 */
-.class:last-child {}                  /* 同级最后一个元素 */
-.class:first-of-type {}               /* 同级第一个同类元素 */
-.class:last-of-type {}                /* 同级最后一个同类元素 */
-.class:focus {}                       /* 获得焦点状态 */
-.class:nth-child(n) {}                /* 同级第n个元素 */
-.class:nth-last-child(n) {}           /* 同级倒数第n个元素 */
-.class:nth-of-type(n) {}              /* 同级第n个同类元素 */
-.class:nth-last-of-type(n) {}         /* 同级倒数第n个同类元素 */
-.class:target {}                      /* 与id匹配的目标元素 */
+a:link {}                                                                       /* 未访问 */
+a:visited {}                                                                    /* 已访问 */
+a:hover {}                                                                      /* 鼠标悬停 */
+a:active {}                                                                     /* 激活 */
+.class:checked {}                                                               /* radio、checkbox和option的选中状态 */
+.class:disabled {}                                                              /* 禁用状态 */
+.class:enabled {}                                                               /* 启用状态 */
+.class:first-child {}                                                           /* 同级第一个元素 */
+.class:last-child {}                                                            /* 同级最后一个元素 */
+.class:first-of-type {}                                                         /* 同级第一个同类元素 */
+.class:last-of-type {}                                                          /* 同级最后一个同类元素 */
+.class:focus {}                                                                 /* 获得焦点状态 */
+.class:nth-child(n) {}                                                          /* 同级第n个元素 */
+.class:nth-last-child(n) {}                                                     /* 同级倒数第n个元素 */
+.class:nth-of-type(n) {}                                                        /* 同级第n个同类元素 */
+.class:nth-last-of-type(n) {}                                                   /* 同级倒数第n个同类元素 */
+.class:target {}                                                                /* 与id匹配的目标元素 */
 /* 伪元素 */
-.class::before {}                     /* 当前元素的前一个伪元素 */
-.class::after {}                      /* 当前元素的后一个伪元素 */
-.class::selection {}                  /* 元素内容被选中 */
+.class::before {}                                                               /* 当前元素的前一个伪元素 */
+.class::after {}                                                                /* 当前元素的后一个伪元素 */
+.class::selection {}                                                            /* 元素内容被选中 */
 /* @规则 */
-@charset "UTF-8";                     /* 定义样式使用的字符集 */
-@import "example.css";                /* 引入外部样式表 */
-@media all {}                         /* 媒体查询 */
-@font-face {}                         /* 引入外部字体 */
-@keyframes keyframes-name {}          /* CSS 动画帧 */
-@supports () {}                       /* 条件规则 */
+@charset "UTF-8";                                                               /* 定义样式使用的字符集 */
+@import "example.css";                                                          /* 引入外部样式表 */
+@media all {}                                                                   /* 媒体查询 */
+@font-face {}                                                                   /* 引入外部字体 */
+@keyframes keyframes-name {}                                                    /* CSS 动画帧 */
+@supports () {}                                                                 /* 条件规则 */
 /* 简写属性 */
-.background {                                       /* Background 属性 */
-    background-color: #000;                         /* 背景颜色 */
-    background-image: url("example.png");           /* 背景图片 */
-    background-repeat: no-repeat;                   /* 背景图片重复 */
-    background-position: top left;                  /* 背景图片位置 */
+.background {                                                                   /* Background 属性 */
+    background-color: #000;                                                     /* 背景颜色 */
+    background-image: url("example.png");                                       /* 背景图片 */
+    background-repeat: no-repeat;                                               /* 背景图片重复 */
+    background-position: top left;                                              /* 背景图片位置 */
 }
 .background {background: #000 url("example.png") no-repeat top left;}
-.font {                                             /* Font 属性 */
-    font-style: italic;                             /* 字体样式 */
-    font-weight: bold;                              /* 字体粗细 */
-    font-size: 1em;                                 /* 字体大小 */
-    line-height: 1.2;                               /* 行高 */
-    font-family: Arial, sans-serif;                 /* 字体类型 */
+.font {                                                                         /* Font 属性 */
+    font-style: italic;                                                         /* 字体样式 */
+    font-weight: bold;                                                          /* 字体粗细 */
+    font-size: 1em;                                                             /* 字体大小 */
+    line-height: 1.2;                                                           /* 行高 */
+    font-family: Arial, sans-serif;                                             /* 字体类型 */
 }
 .font {font: italic bold 1em/1.2 Arial,sans-serif;}
-.border {                                           /* Border 属性, Outline 相同 */
-    border-width: 1px;                              /* 边框宽度 */
-    border-style: solid;                            /* 边框类型 */
-    border-color: #000;                             /* 边框颜色 */
+.border {                                                                       /* Border 属性, Outline 相同 */
+    border-width: 1px;                                                          /* 边框宽度 */
+    border-style: solid;                                                        /* 边框类型 */
+    border-color: #000;                                                         /* 边框颜色 */
 }
 .border {border: 1px solid #000;}
-.margin {                                           /* Margin 属性,Padding 相同 */
-    margin-top: 5px;                                /* 上外边距宽度 */
-    margin-right: 10px;                             /* 右外边距宽度 */
-    margin-bottom: 5px;                             /* 下外边距宽度 */
-    margin-left: 10px;                              /* 左外边距宽度 */
+.margin {                                                                       /* Margin 属性,Padding 相同 */
+    margin-top: 5px;                                                            /* 上外边距宽度 */
+    margin-right: 10px;                                                         /* 右外边距宽度 */
+    margin-bottom: 5px;                                                         /* 下外边距宽度 */
+    margin-left: 10px;                                                          /* 左外边距宽度 */
 }
 .margin {margin: 5px 10px 5px 10px}
-ul {                                                /* 列表属性 */
-    list-style-image: url("example.png");           /* 列表项标记图片 */
-    list-style-position: inside;                    /* 列表项标记位置 */
-    list-style-type: circle;                        /* 列表项标记类型 */
+ul {                                                                            /* 列表属性 */
+    list-style-image: url("example.png");                                       /* 列表项标记图片 */
+    list-style-position: inside;                                                /* 列表项标记位置 */
+    list-style-type: circle;                                                    /* 列表项标记类型 */
 }
 ul {list-style: url("example") inside circle}
 /* 文本属性 */
 .text {
-    color: #000;                     /* 文本颜色 */
-    direction: ltr;                  /* 文本方向 */
-    letter-spacing: normal;          /* 字符间距 */
-    line-height: 16px;               /* 行高 */
-    text-align: center;              /* 水平对齐方式 */
-    text-decoration: none;           /* 文本修饰 */
-    text-indent: 1em;                /* 文本首行缩进 */
-    text-shadow: #000;               /* 文本阴影 */
-    text-transform: none;            /* 字母大小写 */
-    text-overflow: clip;             /* 文本溢出处理方式 */
-    vertical-align: center;          /* 竖直对齐方式 */
-    white-space: normal;             /* 空格处理方式 */
-    word-spacing: normal;            /* 字间距 */
-    word-wrap: break-word;           /* 单词分割换行 */
+    color: #000;                                                                /* 文本颜色 */
+    direction: ltr;                                                             /* 文本方向 */
+    letter-spacing: normal;                                                     /* 字符间距 */
+    line-height: 16px;                                                          /* 行高 */
+    text-align: center;                                                         /* 水平对齐方式 */
+    text-decoration: none;                                                      /* 文本修饰 */
+    text-indent: 1em;                                                           /* 文本首行缩进 */
+    text-shadow: #000;                                                          /* 文本阴影 */
+    text-transform: none;                                                       /* 字母大小写 */
+    text-overflow: clip;                                                        /* 文本溢出处理方式 */
+    vertical-align: center;                                                     /* 竖直对齐方式 */
+    white-space: normal;                                                        /* 空格处理方式 */
+    word-spacing: normal;                                                       /* 字间距 */
+    word-wrap: break-word;                                                      /* 单词分割换行 */
 }
 /* 盒模型：margin + (outline) + border + padding + content */
 /* 尺寸属性 */
 .size {
-    height: 10px;                    /* 高度 */
-    min-height: 5px;                 /* 最小高度 */
-    max-height: 15px;                /* 最大高度 */
-    width: 10px;                     /* 宽度 */
-    min-width: 5px;                  /* 最小宽度 */
-    max-width: 15px;                 /* 最大宽度 */
+    height: 10px;                                                               /* 高度 */
+    min-height: 5px;                                                            /* 最小高度 */
+    max-height: 15px;                                                           /* 最大高度 */
+    width: 10px;                                                                /* 宽度 */
+    min-width: 5px;                                                             /* 最小宽度 */
+    max-width: 15px;                                                            /* 最大宽度 */
 }
 /* 显示、可见和不透明属性 */
 .visual {
-    display: block;                  /* 显示属性 */
-    visibility: visible;             /* 可见属性 */
-    opacity: 0.1;                    /* 不透明属性 */
+    display: block;                                                             /* 显示属性 */
+    visibility: visible;                                                        /* 可见属性 */
+    opacity: 0.1;                                                               /* 不透明属性 */
 }
 /* 定位属性 */
 .position {
-    position: relative;              /* 元素定位类型 */
-    top: 10px;                       /* 元素定位上外边界与父级元素上边界的偏移 */
-    right: 10px;                     /* 元素定位右外边界与父级元素右边界的偏移 */
-    bottom: 10px;                    /* 元素定位下外边界与父级元素下边界的偏移 */
-    left: 10px;                      /* 元素定位左外边界与父级元素左边界的偏移 */
-    clip: auto;                      /* 剪辑一个绝对定位元素 */
-    cursor: pointer;                 /* 光标移动到元素的样式 */
-    overflow: auto;                  /* 溢出内容处理方式 */
-    z-index: 100;                    /* 元素堆叠顺序 */
+    position: relative;                                                         /* 元素定位类型 */
+    top: 10px;                                                                  /* 元素定位上外边界与父级元素上边界的偏移 */
+    right: 10px;                                                                /* 元素定位右外边界与父级元素右边界的偏移 */
+    bottom: 10px;                                                               /* 元素定位下外边界与父级元素下边界的偏移 */
+    left: 10px;                                                                 /* 元素定位左外边界与父级元素左边界的偏移 */
+    clip: auto;                                                                 /* 剪辑一个绝对定位元素 */
+    cursor: pointer;                                                            /* 光标移动到元素的样式 */
+    overflow: auto;                                                             /* 溢出内容处理方式 */
+    z-index: 100;                                                               /* 元素堆叠顺序 */
 }
 /* 浮动属性 */
 .float {
-    float: left;                     /* 设置浮动 */
-    clear: both;                     /* 清除浮动 */
+    float: left;                                                                /* 设置浮动 */
+    clear: both;                                                                /* 清除浮动 */
 }
 /* CSS3 边框属性 */
 .css3-border {
-    border-image: url("example.png");       /* 边框图片 */
-    border-radius: 3px;                     /* 边框圆角 */
-    box-shadow: #000;                       /* 边框阴影 */
+    border-image: url("example.png");                                           /* 边框图片 */
+    border-radius: 3px;                                                         /* 边框圆角 */
+    box-shadow: #000;                                                           /* 边框阴影 */
 }
 /* CSS3 背景属性 */
 .css3-background {
-    background-image: url("example.png");   /* 背景图片 */
-    background-size: 10px 10px;             /* 背景图片尺寸 */
-    background-origin: border-box;          /* 背景图片定位区域 */
-    background-clip: border-box;            /* 背景图片裁剪属性 */
+    background-image: url("example.png");                                       /* 背景图片 */
+    background-size: 10px 10px;                                                 /* 背景图片尺寸 */
+    background-origin: border-box;                                              /* 背景图片定位区域 */
+    background-clip: border-box;                                                /* 背景图片裁剪属性 */
 }
 /* CSS3 渐变属性 */
 .css3-gradients {
-    background: linear-gradient(to bottom right, red 10%, green 20%, blue);  /* 线性渐变 */
-    background: repeating-linear-gradient(red, green, blue);                 /* 重复线性渐变 */
-    background: radial-gradient(circle, red 10%, green 20%, blue);           /* 径向渐变 */
-    background: repeating-radial-gradient(red, green, blue);                 /* 重复径向渐变 */
+    background: linear-gradient(to bottom right, red 10%, green 20%, blue);     /* 线性渐变 */
+    background: repeating-linear-gradient(red, green, blue);                    /* 重复线性渐变 */
+    background: radial-gradient(circle, red 10%, green 20%, blue);              /* 径向渐变 */
+    background: repeating-radial-gradient(red, green, blue);                    /* 重复径向渐变 */
 }
 /* CSS3 2D转换 */
 .css3-2d-transform {
-    transform: translate(10px 10px);            /* 平移 */
-    transform: rotate(30deg);                   /* 旋转 */
-    transform: scale(1.1);                      /* 缩放 */
-    transform: skew(30deg, 30deg);              /* 倾斜 */
-    transform: matrix(10px);                    /* 矩阵，包含以上六项 */
-    transform-origin: center;                   /* 转换元素的位置 */
+    transform: translate(10px 10px);                                            /* 平移 */
+    transform: rotate(30deg);                                                   /* 旋转 */
+    transform: scale(1.1);                                                      /* 缩放 */
+    transform: skew(30deg, 30deg);                                              /* 倾斜 */
+    transform: matrix(10px);                                                    /* 矩阵，包含以上六项 */
+    transform-origin: center;                                                   /* 转换元素的位置 */
 }
 /* CSS3 3D转换 */
 .css3-3d-transform {
-    transform: translate3d(10px, 10px, 10px);   /* 3D 平移 */
-    transform: rotate3d(1, 1, 1, 30deg);        /* 3D 旋转 */
-    transform: scale3d(1.1, 1.1, 1.1);          /* 3D 缩放 */
-    transform: matrix3d(10, 10, 10, 10          /* 3D 矩阵，16个值 */
+    transform: translate3d(10px, 10px, 10px);                                   /* 3D 平移 */
+    transform: rotate3d(1, 1, 1, 30deg);                                        /* 3D 旋转 */
+    transform: scale3d(1.1, 1.1, 1.1);                                          /* 3D 缩放 */
+    transform: matrix3d(10, 10, 10, 10                                          /* 3D 矩阵，16个值 */
     ,10, 10, 10, 10
     ,10, 10, 10, 10
     ,10, 10, 10, 10);
-    transform-style: preserve-3d;               /* 3D 显示方式 */
-    perspective: 10px;                          /* 3D 透视效果 */
-    perspective-origin: 10px;                   /* 3D 底部位置 */
-    backface-visibility: visible;               /* 不面对屏幕时是否可见 */
+    transform-style: preserve-3d;                                               /* 3D 显示方式 */
+    perspective: 10px;                                                          /* 3D 透视效果 */
+    perspective-origin: 10px;                                                   /* 3D 底部位置 */
+    backface-visibility: visible;                                               /* 不面对屏幕时是否可见 */
 }
 /* CSS3 过渡 */
 .css3-transition {
-    transition-property: width;                 /* 应用过渡的 CSS 属性的名称 */
-    transition-duration: 1s;                    /* 过渡时间 */
-    transition-timing-function: linear;         /* 过渡时间曲线 */
-    transition-delay: 0s;                       /* 延迟时间 */
-    transition: width 1s linear 0s;             /* 过渡简写 */
+    transition-property: width;                                                 /* 应用过渡的 CSS 属性的名称 */
+    transition-duration: 1s;                                                    /* 过渡时间 */
+    transition-timing-function: linear;                                         /* 过渡时间曲线 */
+    transition-delay: 0s;                                                       /* 延迟时间 */
+    transition: width 1s linear 0s;                                             /* 过渡简写 */
 }
 /* CSS3 动画 */
 @keyframes keyframes-name {
@@ -185,27 +185,27 @@ ul {list-style: url("example") inside circle}
     100% {background: blue; left: 100px; top: 100px;}
 }
 .class {
-    animation-name: keyframes-name;             /* 动画名称 */
-    animation-duration: 5s;                     /* 动画时间 */
-    animation-timing-function: linear;          /* 动画时间曲线 */
-    animation-fill-mode: none;                  /* 动画不播放时需要应用到元素的样式 */
-    animation-delay: 0s;                        /* 动画延迟时间 */
-    animation-iteration-count: 1;               /* 动画播放次数 */
-    animation-direction: normal;                /* 动画在下一周期是否逆向播放 */
-    animation-play-state: running;              /* 动画运行状态 */
-    animation: keyframes-name 5s linear;        /* 动画简写，除了动画运行状态 */
+    animation-name: keyframes-name;                                             /* 动画名称 */
+    animation-duration: 5s;                                                     /* 动画时间 */
+    animation-timing-function: linear;                                          /* 动画时间曲线 */
+    animation-fill-mode: none;                                                  /* 动画不播放时需要应用到元素的样式 */
+    animation-delay: 0s;                                                        /* 动画延迟时间 */
+    animation-iteration-count: 1;                                               /* 动画播放次数 */
+    animation-direction: normal;                                                /* 动画在下一周期是否逆向播放 */
+    animation-play-state: running;                                              /* 动画运行状态 */
+    animation: keyframes-name 5s linear;                                        /* 动画简写，除了动画运行状态 */
 }
 /* CSS3 多列 */
 div {
-    column-width: 100px;                        /* 列宽 */
-    column-count: 2;                            /* 列数 */
-    columns: 100px 2;                           /* 列宽和列数的简写 */
-    column-fill: auto;                          /* 填充列的方式 */
-    column-gap: normal;                         /* 列间间隙 */
-    column-span: all;                           /* 跨列数 */
-    column-rule-width: 1px;                     /* 列间边框宽度 */
-    column-rule-style: solid;                   /* 列间边框类型 */
-    column-rule-color: #000;                    /* 列间边框颜色 */
-    column-rule: 1px solid #000;                /* 列间边框简写 */
+    column-width: 100px;                                                        /* 列宽 */
+    column-count: 2;                                                            /* 列数 */
+    columns: 100px 2;                                                           /* 列宽和列数的简写 */
+    column-fill: auto;                                                          /* 填充列的方式 */
+    column-gap: normal;                                                         /* 列间间隙 */
+    column-span: all;                                                           /* 跨列数 */
+    column-rule-width: 1px;                                                     /* 列间边框宽度 */
+    column-rule-style: solid;                                                   /* 列间边框类型 */
+    column-rule-color: #000;                                                    /* 列间边框颜色 */
+    column-rule: 1px solid #000;                                                /* 列间边框简写 */
 }
 /* 弹性盒子 */
