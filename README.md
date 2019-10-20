@@ -1,6 +1,6 @@
 # Creative Web Designer & Developer
 ## 规范
-#### 1. [Web 代码规范](Web代码规范.md)
+#### 1. [Web 代码规范](ReadingNotes/Web代码规范.md)
 
 ## 读书笔记
 ### 一、HTML
