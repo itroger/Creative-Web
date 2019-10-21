@@ -1,0 +1,16 @@
+{
+  "name": "HTML5 程序设计(第2版)",
+  "author": ["Brian Albers", "Frank Salim", "Peter Lubbers"],
+  "translator": ["柳靖", "刘淼", "李杰"],
+  "price": 59.00,
+  "press": "人民邮电出版社-图灵社区",
+  "date": "2012-05-21",
+  "type": "HTML",
+  "open": 16,
+  "page": 276,
+  "ISBN": "978-7-115-27871-5",
+  "url": "https://www.ituring.com.cn/book/938",
+  "cover": "./Books/HTML5程序设计(第2版).jpg",
+  "book": true,
+  "pdf": false
+}

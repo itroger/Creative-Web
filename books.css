@@ -1,0 +1,149 @@
+/* 书单样式 */
+table {
+    margin: 0 auto;
+}
+caption {
+    color: #c00000;
+    font-size: 20px;
+    font-weight: 600;
+}
+td {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-right: 1px solid #333;
+}
+td:last-child {
+    border-right: none;
+}
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+td:first-child {
+    width: 150px;
+    background-color: #fff;
+}
+tr:nth-child(odd) td {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.pdf,
+.pdf a {
+    font-weight: 600;
+    color: darkorchid;
+}
+.docs,
+.docs a {
+    font-weight: 600;
+    color: olivedrab;
+}
+
+/* 详情样式 */
+#popBox {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#bookDetail {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 534px;
+    background-color: #fff;
+    margin-left: -450px;
+    margin-top: -300px;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+    z-index: 9999;
+    box-shadow: 0 0 40px #111;
+    /*display: none;*/
+}
+.leftFM {
+    float: left;
+    width: 304px;
+    height: 438px;
+    padding: 48px;
+    background: #F7B357;
+}
+.leftFM img {
+    width: 100%;
+    height: 100%;
+}
+.rightCon {
+    padding: 20px 28px 0 58px;
+    float: left;
+    width: 414px;
+    height: 500px;
+    position: relative;
+}
+.rightCon p.closeBtn {
+    width: 100%;
+    height: 18px;
+    margin: 0;
+}
+.rightCon p.closeBtn #closeFM {
+    float: right;
+    display: block;
+    width: 33px;
+    height: 18px;
+    /*background: url(../image/bookDetail/close.jpg) no-repeat center;*/
+    cursor: pointer;
+}
+.rightCon p.pTitle {
+    font-size: 28px;
+    color: #111;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+.rightCon p.athor,
+.rightCon p.price {
+    margin-top: 25px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+}
+.rightCon .otherP {
+    margin-top: 18px;
+}
+.rightCon .otherP p {
+    line-height: 20px;
+    color: #969696;
+}
+.rightCon p {
+    margin-bottom: 10px;
+}
+#bookDetail a {
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    background-color: #FF7F29;
+    display: block;
+    width: 110px;
+    height: 30px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 193px;
+    font-size: 15px;
+}
+#popBox.open,
+#bookDetail.open{
+    display: block;
+}
