@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>学习路径</title>
     <style>
+        /* 书单样式 */
         caption {
             color: #c00000;
             font-size: 20px;
@@ -39,6 +40,112 @@
         }
         .docs a {
             color: olivedrab;
+        }
+
+        /* 详情样式 */
+        #popBox {
+            display: none;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            opacity: 0.6;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 9999;
+        }
+        #bookDetail {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 900px;
+            height: 534px;
+            background-color: #fff;
+            margin-left: -450px;
+            margin-top: -300px;
+            font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
+            z-index: 9999;
+            box-shadow: 0 0 40px #111;
+            /*display: none;*/
+        }
+        .leftFM {
+            float: left;
+            width: 304px;
+            height: 438px;
+            padding: 48px;
+            background: #F7B357;
+        }
+        .leftFM img {
+            width: 100%;
+            height: 100%;
+        }
+        .rightCon {
+            padding: 33px 28px 0 58px;
+            float: left;
+            width: 414px;
+            height: 500px;
+            position: relative;
+        }
+        .rightCon p.closeBtn {
+            width: 100%;
+            height: 33px;
+            margin: 0;
+        }
+        .rightCon p.closeBtn #closeFM {
+            float: right;
+            display: block;
+            width: 33px;
+            height: 18px;
+            /*background: url(../image/bookDetail/close.jpg) no-repeat center;*/
+            cursor: pointer;
+        }
+        .rightCon p.pTitle {
+            font-size: 28px;
+            color: #111;
+            height: 60px;
+            line-height: 27px;
+            margin: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .rightCon p.athor,
+        .rightCon p.price {
+            margin-top: 9px;
+            line-height: 16px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: #000;
+        }
+        .rightCon .otherP {
+            margin-top: 18px;
+        }
+        .rightCon .otherP p {
+            line-height: 20px;
+            color: #969696;
+        }
+        .rightCon p {
+            margin-bottom: 10px;
+        }
+        .rightCon a {
+            color: #fff;
+            background-color: #FF7F29;
+            display: block;
+            width: 110px;
+            height: 30px;
+            border-radius: 2px;
+            box-sizing: border-box;
+            float: left;
+            text-align: center;
+            line-height: 30px;
+            margin: 15px 0 0 150px;
+            font-size: 15px;
+        }
+        #popBox.open,
+        #bookDetail.open{
+            display: block;
         }
     </style>
 </head>
@@ -169,5 +276,41 @@
         <span class="pdf"><a href="#">电子书</a></span>
         <span class="docs"><a href="#">官方文档</a></span>
     </main>
+    <div id="popBox"></div>
+    <article id="bookDetail">
+        <aside class="leftFM">
+            <img src="./Books/HTML5程序设计(第2版).jpg">
+        </aside>
+        <aside class="rightCon">
+            <p class="closeBtn"><i id="closeFM">X</i></p>
+            <p class="pTitle" id="book_name">机器学习实战：基于Scikit-Learn和TensorFlow</p>
+            <p class="athor" id="book_author">作者 : [法] 奥雷利安·杰龙（Aurélien Géron）著</p>
+            <p class="athor" id="translator_name" style="">译者 : 王静源 贾玮 边蕤 邱俊涛 译</p>
+            <p class="price" id="book_price">定价 : 119.00 元</p>
+            <div class="otherP">
+                <p id="book_concern">出版社 : 机械工业出版社</p>
+                <p id="book_time">出版时间 : 2018.08.16</p>
+                <p id="book_lang">语种 : 简体中文</p>
+                <p id="book_type">种类 : 科技类书籍</p>
+                <p id="book_open">开本 : 16开</p>
+                <p id="book_size">页数 : 474 页 </p>
+                <p id="book_number">ISBN : 978-7-111-60302-3</p>
+            </div>
+            <a id="detailURL" href="">查看详情</a>
+        </aside>
+    </article>
 </body>
+<script>
+    document.getElementsByTagName("TABLE")[0].addEventListener("click", function (event) {
+        if (event.target.nodeName === "A")
+            event.preventDefault();
+            document.getElementById("popBox").classList.add("open");
+            document.getElementById("bookDetail").classList.add("open");
+            document.getElementById("detailURL").setAttribute("href", event.target);
+    });
+    document.getElementById("closeFM").onclick = function () {
+        document.getElementById("popBox").classList.remove("open");
+        document.getElementById("bookDetail").classList.remove("open");
+    };
+</script>
 </html>
