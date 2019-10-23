@@ -126,7 +126,6 @@ a {
     display: block;
     width: 33px;
     height: 18px;
-    /*background: url(../image/bookDetail/close.jpg) no-repeat center;*/
     cursor: pointer;
 }
 .rightCon p.pTitle {
@@ -155,21 +154,29 @@ a {
 .rightCon p {
     margin-bottom: 10px;
 }
-#bookDetail a {
-    position: relative;
-    bottom: 40px;
+address {
+    position: absolute;
+    bottom: 10px;
+    width: 414px;
+    height: 30px;
+    text-align: center;
+}
+address a {
     color: #fff;
-    background-color: #FF7F29;
-    display: block;
+    background: linear-gradient(to right, darkorchid, darkorange);
+    display: inline-block;
+    margin: 0 30px;
     width: 110px;
     height: 30px;
     border-radius: 2px;
     box-sizing: border-box;
-    float: left;
     text-align: center;
     line-height: 30px;
-    margin-left: 193px;
     font-size: 15px;
+    font-style: normal;
+}
+address a:hover {
+    box-shadow: rgba(0,0,0,.2) 0 1px 5px 0;
 }
 #popBox.open,
 #bookDetail.open{

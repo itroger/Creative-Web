@@ -58,8 +58,11 @@ books.bookList = function (data, url) {
                     <p id="book_size">页数 : ${data[i].page} 页 </p>
                     <p id="book_number">ISBN : ${data[i].ISBN}</p>
                 </div>
-            </aside>
-            <a target="_blank" id="detailURL" href="${data[i].url}">查看详情</a>`;
+                <address>
+                    <a target="_blank" id="detailURL" href="${data[i].url}">查看详情</a>
+                    <a target="_blank" id="readNotes" href="${data[i].notes}">读书笔记</a>
+                </address>
+            </aside>`;
             document.getElementById("bookDetail").innerHTML = html;
             return;
         }
