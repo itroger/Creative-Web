@@ -619,7 +619,7 @@
   "page": 0,
   "ISBN": "0",
   "url": "https://guides.github.com/features/mastering-markdown/",
-  "notes": "",
+  "notes": "https://github.com/itroger/Creative-Web/blob/master/ReadingNotes/基本技能/2.GitHubMarkdown官方文档阅读笔记.md",
   "cover": "./Logos/GitHub3.jpg",
   "book": false,
   "pdf": false
