@@ -1,18 +1,25 @@
-document.getElementsByTagName("TABLE")[0].addEventListener("click", function (event) {
-    if (event.target.nodeName === "A") {
-        event.preventDefault();
-        document.getElementById("popBox").classList.add("open");
-        document.getElementById("bookDetail").classList.add("open");
-        // document.getElementById("detailURL").setAttribute("href", event.target.href)
-        getData(event.target.href);
-    }
-});
-function closeBox() {
+window.onload = function () {
+    books.run();
+};
+
+var books = {};
+books.run = function() {
+    document.getElementsByTagName("TABLE")[0].addEventListener("click", function (event) {
+        if (event.target.nodeName === "A") {
+            event.preventDefault();
+            document.getElementById("popBox").classList.add("open");
+            document.getElementById("bookDetail").classList.add("open");
+            books.getData(event.target.href);
+        }
+    })
+};
+
+books.closeBox = function() {
     document.getElementById("popBox").classList.remove("open");
     document.getElementById("bookDetail").classList.remove("open");
-}
+};
 
-var bookList = function (data, url) {
+books.bookList = function (data, url) {
     var html = "";
     for (let i = 0; i < data.length; i++) {
         if (data[i].url === url) {
@@ -22,7 +29,7 @@ var bookList = function (data, url) {
                 <img src="${data[i].cover}">
             </aside>
             <aside class="rightCon">
-                <p class="closeBtn"><i id="closeFM" onclick="closeBox();">X</i></p>
+                <p class="closeBtn"><i id="closeFM" onclick="books.closeBox();">X</i></p>
                 <p class="pTitle" id="book_name">${data[i].name}</p>
                 <p class="athor" id="book_author">作者 : `;
             for (let j = 0; j < data[i].author.length; j++) {
@@ -41,8 +48,6 @@ var bookList = function (data, url) {
                     html += `${data[i].translator[j]}`;
                 }
             }
-            // html.pop();
-            // html.pop();
             html += ` 译</p>
                 <p class="price" id="book_price">定价 : ${data[i].price} 元</p>
                 <div class="otherP">
@@ -61,13 +66,16 @@ var bookList = function (data, url) {
     }
 };
 
-var getData = function (url) {
+books.getData = function (url) {
     var xhr = new XMLHttpRequest();
     xhr.open("get", "./books.json", true);
     xhr.send(null);
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
-            bookList(JSON.parse(xhr.responseText), url);
+            books.bookList(JSON.parse(xhr.responseText), url);
         }
     };
 };
+
+
+

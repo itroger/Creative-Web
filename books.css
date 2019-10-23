@@ -3,9 +3,10 @@ table {
     margin: 0 auto;
 }
 caption {
-    color: #c00000;
+    margin-bottom: 5px;
     font-size: 20px;
     font-weight: 600;
+    color: darkorchid;
 }
 td {
     width: 300px;
@@ -28,19 +29,47 @@ tr:nth-child(odd) td {
     border-bottom: 1px solid #333;
 }
 a {
-    color: black;
     font-weight: 600;
     text-decoration: none;
 }
+.book,
+.pdf,
+.docs,
+.read {
+    font-weight: 600;
+}
+.book,
+.book a {
+    color: darkslategray;
+}
 .pdf,
 .pdf a {
-    font-weight: 600;
     color: darkorchid;
 }
 .docs,
 .docs a {
-    font-weight: 600;
     color: olivedrab;
+}
+.book.read,
+.book.read a,
+.pdf.read,
+.pdf.read a,
+.docs.read,
+.docs.read a {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.book.read,
+.book.read a {
+    background-image: -webkit-linear-gradient(left, darkslategray, darkorange);
+}
+.pdf.read,
+.pdf.read a {
+    background-image: -webkit-linear-gradient(left, darkorchid, darkorange);
+}
+.docs.read,
+.docs.read a {
+    background-image: -webkit-linear-gradient(left, olivedrab, darkorange);
 }
 
 /* 详情样式 */
@@ -68,7 +97,6 @@ a {
     font: 14px Helvetica Neue,Helvetica,PingFang SC,\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,sans-serif;
     z-index: 9999;
     box-shadow: 0 0 40px #111;
-    /*display: none;*/
 }
 .leftFM {
     float: left;
