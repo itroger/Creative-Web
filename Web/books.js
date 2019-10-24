@@ -23,7 +23,6 @@ books.bookList = function (data, url) {
     var html = "";
     for (let i = 0; i < data.length; i++) {
         if (data[i].url === url) {
-
             html += `
             <aside class="leftFM">
                 <img src="${data[i].cover}">
