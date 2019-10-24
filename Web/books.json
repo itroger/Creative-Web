@@ -12,7 +12,7 @@
   "ISBN": "978-7-115-27871-5",
   "url": "https://www.ituring.com.cn/book/938",
     "notes": "",
-    "cover": "./Books/HTML5程序设计(第2版).jpg",
+    "cover": "../Books/HTML5程序设计(第2版).jpg",
   "book": true,
   "pdf": false
 },{
@@ -28,7 +28,7 @@
   "ISBN": "978-7-115-50690-0",
   "url": "https://www.ituring.com.cn/book/1910",
   "notes": "",
-  "cover": "./Books/精通CSS：高级Web标准解决方案(第3版).jpg",
+  "cover": "../Books/精通CSS：高级Web标准解决方案(第3版).jpg",
   "book": true,
   "pdf": false
 },{
@@ -44,7 +44,7 @@
   "ISBN": "978-7-115-41694-0",
   "url": "https://www.ituring.com.cn/book/1695",
   "notes": "",
-  "cover": "./Books/CSS揭秘.jpg",
+  "cover": "../Books/CSS揭秘.jpg",
   "book": true,
   "pdf": true
 },{
@@ -60,7 +60,7 @@
   "ISBN": "978-7-121-17740-8",
   "url": "http://www.broadview.com.cn/book/2899",
   "notes": "https://github.com/itroger/Creative-Web/blob/master/ReadingNotes/JavaScript/1.JavaScript语言精粹(修订版)读书笔记.md",
-  "cover": "./Books/JavaScript语言精粹(修订版).jpg",
+  "cover": "../Books/JavaScript语言精粹(修订版).jpg",
   "book": true,
   "pdf": true
 },{
@@ -76,7 +76,7 @@
   "ISBN": "978-7-115-24999-9",
   "url": "https://www.ituring.com.cn/book/42",
   "notes": "https://github.com/itroger/Creative-Web/blob/master/ReadingNotes/JavaScript/2.JavaScriptDOM编程艺术(第2版)读书笔记.md",
-  "cover": "./Books/JavaScriptDOM编程艺术(第2版).jpg",
+  "cover": "../Books/JavaScriptDOM编程艺术(第2版).jpg",
   "book": true,
   "pdf": true
 },{
@@ -92,7 +92,7 @@
   "ISBN": "978-7-115-27579-0",
   "url": "https://www.ituring.com.cn/book/946",
   "notes": "https://github.com/itroger/Creative-Web/blob/master/ReadingNotes/JavaScript/3.JavaScript高级程序设计(第3版)读书笔记.md",
-  "cover": "./Books/JavaScript高级程序设计(第3版).jpg",
+  "cover": "../Books/JavaScript高级程序设计(第3版).jpg",
   "book": true,
   "pdf": true
 },{
@@ -108,7 +108,7 @@
   "ISBN": "978-7-115-38384-6",
   "url": "https://www.epubit.com/bookDetails?id=N33175",
   "notes": "https://github.com/itroger/Creative-Web/blob/master/ReadingNotes/JavaScript/4.JavaScript面向对象精要读书笔记.md",
-  "cover": "./Books/JavaScript面向对象精要.jpg",
+  "cover": "../Books/JavaScript面向对象精要.jpg",
   "book": true,
   "pdf": true
 },{
@@ -124,7 +124,7 @@
   "ISBN": "978-7-121-26677-5",
   "url": "http://www.broadview.com.cn/book/2744",
   "notes": "https://github.com/itroger/Creative-Web/blob/master/ReadingNotes/JavaScript/5.高性能JavaScript读书笔记.md",
-  "cover": "./Books/高性能JavaScript.jpg",
+  "cover": "../Books/高性能JavaScript.jpg",
   "book": true,
   "pdf": false
 },{
@@ -140,7 +140,7 @@
   "ISBN": "978-7-121-31798-9",
   "url": "http://www.broadview.com.cn/book/250",
   "notes": "",
-  "cover": "./Books/深入理解ES6.jpg",
+  "cover": "../Books/深入理解ES6.jpg",
   "book": true,
   "pdf": false
 },{
@@ -156,7 +156,7 @@
   "ISBN": "0",
   "url": "http://www.typescriptlang.org/",
   "notes": "",
-  "cover": "./Logos/TypeScript3.png",
+  "cover": "../Logos/TypeScript3.png",
   "book": false,
   "pdf": false
 },{
@@ -172,7 +172,7 @@
   "ISBN": "978-7-115-38573-4",
   "url": "https://www.ituring.com.cn/book/1488",
   "notes": "",
-  "cover": "./Books/你不知道的JavaScript(上卷).jpg",
+  "cover": "../Books/你不知道的JavaScript(上卷).jpg",
   "book": true,
   "pdf": true
 },{
@@ -188,7 +188,7 @@
   "ISBN": "978-7-115-43116-5",
   "url": "https://www.ituring.com.cn/book/1563",
   "notes": "",
-  "cover": "./Books/你不知道的JavaScript(中卷).jpg",
+  "cover": "../Books/你不知道的JavaScript(中卷).jpg",
   "book": true,
   "pdf": true
 },{
@@ -204,7 +204,7 @@
   "ISBN": "978-7-115-47165-9",
   "url": "https://www.ituring.com.cn/book/1666",
   "notes": "",
-  "cover": "./Books/你不知道的JavaScript(下卷).jpg",
+  "cover": "../Books/你不知道的JavaScript(下卷).jpg",
   "book": true,
   "pdf": true
 },{
@@ -220,7 +220,7 @@
   "ISBN": "978-7-115-38888-9",
   "url": "https://www.ituring.com.cn/book/1632",
   "notes": "",
-  "cover": "./Books/JavaScript设计模式与开发实践.jpg",
+  "cover": "../Books/JavaScript设计模式与开发实践.jpg",
   "book": true,
   "pdf": true
 },{
@@ -236,7 +236,7 @@
   "ISBN": "978-7-115-50541-5",
   "url": "https://www.epubit.com/bookDetails?id=UB6c786ec2c4de2",
   "notes": "",
-  "cover": "./Books/Node学习指南(第2版).jpg",
+  "cover": "../Books/Node学习指南(第2版).jpg",
   "book": true,
   "pdf": true
 },{
@@ -252,7 +252,7 @@
   "ISBN": "0",
   "url": "https://docs.mongodb.com/",
   "notes": "https://github.com/itroger/Creative-Web/blob/master/ReadingNotes/MongoDB/1.MongoDB官方文档阅读笔记.md",
-  "cover": "./Logos/MongoDB2.svg",
+  "cover": "../Logos/MongoDB2.svg",
   "book": false,
   "pdf": false
 },{
@@ -268,7 +268,7 @@
   "ISBN": "978-7-115-49966-0",
   "url": "https://www.ituring.com.cn/book/2460",
   "notes": "",
-  "cover": "./Books/PostgreSQL即学即用(第3版).jpg",
+  "cover": "../Books/PostgreSQL即学即用(第3版).jpg",
   "book": true,
   "pdf": true
 },{
@@ -284,7 +284,7 @@
   "ISBN": "978-7-111-62631-2",
   "url": "http://www.hzcourse.com/web/refbook/detail/8313/208",
   "notes": "",
-  "cover": "./Books/Webpack实战：入门、进阶与调优.jpg",
+  "cover": "../Books/Webpack实战：入门、进阶与调优.jpg",
   "book": true,
   "pdf": false
 },{
@@ -300,7 +300,7 @@
   "ISBN": "0",
   "url": "https://cn.vuejs.org/",
   "notes": "",
-  "cover": "./Logos/Vue.svg",
+  "cover": "../Logos/Vue.svg",
   "book": false,
   "pdf": false
 },{
@@ -316,7 +316,7 @@
   "ISBN": "0",
   "url": "https://zh-hans.reactjs.org/",
   "notes": "",
-  "cover": "./Logos/React.svg",
+  "cover": "../Logos/React.svg",
   "book": false,
   "pdf": false
 },{
@@ -332,7 +332,7 @@
   "ISBN": "0",
   "url": "https://facebook.github.io/react-native/docs/getting-started.html",
   "notes": "",
-  "cover": "./Logos/React.svg",
+  "cover": "../Logos/React.svg",
   "book": false,
   "pdf": false
 },{
@@ -348,7 +348,7 @@
   "ISBN": "0",
   "url": "http://electronjs.org/docs",
   "notes": "",
-  "cover": "./Logos/Electron.svg",
+  "cover": "../Logos/Electron.svg",
   "book": false,
   "pdf": false
 },{
@@ -364,7 +364,7 @@
   "ISBN": "0",
   "url": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
   "notes": "",
-  "cover": "./Books/微信小程序.jpg",
+  "cover": "../Books/微信小程序.jpg",
   "book": false,
   "pdf": false
 },{
@@ -380,7 +380,7 @@
   "ISBN": "978-7-121-27604-0",
   "url": "https://www.phei.com.cn/module/goods/wssd_content.jsp?bookid=46105",
   "notes": "",
-  "cover": "./Books/交互式计算机图形学：基于WebGL的自顶向下方法(第七版).jpg",
+  "cover": "../Books/交互式计算机图形学：基于WebGL的自顶向下方法(第七版).jpg",
   "book": true,
   "pdf": false
 },{
@@ -396,7 +396,7 @@
   "ISBN": "978-7-121-22942-8",
   "url": "http://www.broadview.com.cn/book/959",
   "notes": "",
-  "cover": "./Books/WebGL编程指南.jpg",
+  "cover": "../Books/WebGL编程指南.jpg",
   "book": true,
   "pdf": false
 },{
@@ -412,7 +412,7 @@
   "ISBN": "978-7-111-62884-2",
   "url": "http://www.hzcourse.com/web/refbook/detail/8358/216",
   "notes": "",
-  "cover": "./Books/Three.js开发指南(第3版).jpg",
+  "cover": "../Books/Three.js开发指南(第3版).jpg",
   "book": true,
   "pdf": false
 },{
@@ -428,7 +428,7 @@
   "ISBN": "978-7-115-44763-0",
   "url": "https://www.ituring.com.cn/book/1864",
   "notes": "",
-  "cover": "./Books/算法图解.jpg",
+  "cover": "../Books/算法图解.jpg",
   "book": true,
   "pdf": true
 },{
@@ -444,7 +444,7 @@
   "ISBN": "978-7-115-35153-1",
   "url": "https://www.ituring.com.cn/book/1229",
   "notes": "",
-  "cover": "./Books/图解HTTP.jpg",
+  "cover": "../Books/图解HTTP.jpg",
   "book": true,
   "pdf": true
 },{
@@ -460,7 +460,7 @@
   "ISBN": "978-7-115-47389-9",
   "url": "https://www.ituring.com.cn/book/2020",
   "notes": "",
-  "cover": "./Books/HTTP2基础教程.jpg",
+  "cover": "../Books/HTTP2基础教程.jpg",
   "book": true,
   "pdf": true
 },{
@@ -476,7 +476,7 @@
   "ISBN": "978-7-115-45415-7",
   "url": "https://www.ituring.com.cn/book/1564",
   "notes": "",
-  "cover": "./Books/流畅的Python.jpg",
+  "cover": "../Books/流畅的Python.jpg",
   "book": true,
   "pdf": true
 },{
@@ -492,7 +492,7 @@
   "ISBN": "978-7-115-47589-3",
   "url": "https://www.ituring.com.cn/book/1937",
   "notes": "",
-  "cover": "./Books/Python数据科学手册.png",
+  "cover": "../Books/Python数据科学手册.png",
   "book": true,
   "pdf": true
 },{
@@ -508,7 +508,7 @@
   "ISBN": "978-7-302-52489-2",
   "url": "https://wqbook.wqxuetang.com/book/3208473",
   "notes": "",
-  "cover": "./Books/实战Python网络爬虫.jpg",
+  "cover": "../Books/实战Python网络爬虫.jpg",
   "book": true,
   "pdf": true
 },{
@@ -524,7 +524,7 @@
   "ISBN": "978-7-111-56837-7",
   "url": "http://www.hzcourse.com/web/teachRes/detail/4084/151",
   "notes": "",
-  "cover": "./Books/商务与经济统计(第13版).jpg",
+  "cover": "../Books/商务与经济统计(第13版).jpg",
   "book": true,
   "pdf": false
 },{
@@ -540,7 +540,7 @@
   "ISBN": "978-7-302-51727-6",
   "url": "https://wqbook.wqxuetang.com/book/3208606",
   "notes": "",
-  "cover": "./Books/统计学习方法(第2版).jpg",
+  "cover": "../Books/统计学习方法(第2版).jpg",
   "book": true,
   "pdf": true
 },{
@@ -556,7 +556,7 @@
   "ISBN": "978-7-302-42328-7",
   "url": "http://www.tup.tsinghua.edu.cn/bookscenter/book_06402701.html",
   "notes": "",
-  "cover": "./Books/机器学习.jpg",
+  "cover": "../Books/机器学习.jpg",
   "book": true,
   "pdf": false
 },{
@@ -572,7 +572,7 @@
   "ISBN": "978-7-111-60302-3",
   "url": "http://www.hzcourse.com/web/refbook/detail/7930/226",
   "notes": "",
-  "cover": "./Books/机器学习实战：基于Scikit-Learn和TensorFlow.jpg",
+  "cover": "../Books/机器学习实战：基于Scikit-Learn和TensorFlow.jpg",
   "book": true,
   "pdf": false
 },{
@@ -588,7 +588,7 @@
   "ISBN": "978-7-115-48558-8",
   "url": "https://www.ituring.com.cn/book/1921",
   "notes": "",
-  "cover": "./Books/深度学习入门：基于Python的理论与实现.jpg",
+  "cover": "../Books/深度学习入门：基于Python的理论与实现.jpg",
   "book": true,
   "pdf": true
 },{
@@ -604,7 +604,7 @@
   "ISBN": "978-7-115-46306-7",
   "url": "https://www.ituring.com.cn/book/1608",
   "notes": "",
-  "cover": "./Books/精通Git(第2版).jpg",
+  "cover": "../Books/精通Git(第2版).jpg",
   "book": true,
   "pdf": false
 },{
@@ -620,7 +620,7 @@
   "ISBN": "0",
   "url": "https://guides.github.com/features/mastering-markdown/",
   "notes": "https://github.com/itroger/Creative-Web/blob/master/ReadingNotes/基本技能/2.GitHubMarkdown官方文档阅读笔记.md",
-  "cover": "./Logos/GitHub3.jpg",
+  "cover": "../Logos/GitHub3.jpg",
   "book": false,
   "pdf": false
 },{
@@ -636,7 +636,7 @@
   "ISBN": "978-7-115-47738-5",
   "url": "https://www.ituring.com.cn/book/2439",
   "notes": "",
-  "cover": "./Books/LinuxShell脚本攻略(第3版).jpg",
+  "cover": "../Books/LinuxShell脚本攻略(第3版).jpg",
   "book": true,
   "pdf": true
 }

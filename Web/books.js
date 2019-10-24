@@ -71,7 +71,7 @@ books.bookList = function (data, url) {
 
 books.getData = function (url) {
     var xhr = new XMLHttpRequest();
-    xhr.open("get", "./books.json", true);
+    xhr.open("get", "./Books.json", true);
     xhr.send(null);
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
