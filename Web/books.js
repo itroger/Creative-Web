@@ -2,7 +2,7 @@ window.onload = function () {
     books.run();
 };
 
-var books = {};
+const books = {};
 books.run = function() {
     document.getElementsByTagName("TABLE")[0].addEventListener("click", function (event) {
         if (event.target.nodeName === "A") {
@@ -20,7 +20,7 @@ books.closeBox = function() {
 };
 
 books.bookList = function (data, url) {
-    var html = "";
+    let html = "";
     for (let i = 0; i < data.length; i++) {
         if (data[i].url === url) {
             html += `
@@ -69,7 +69,7 @@ books.bookList = function (data, url) {
 };
 
 books.getData = function (url) {
-    var xhr = new XMLHttpRequest();
+    const xhr = new XMLHttpRequest();
     xhr.open("get", "./Books.json", true);
     xhr.send(null);
     xhr.onreadystatechange = function () {
