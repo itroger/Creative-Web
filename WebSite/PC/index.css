@@ -54,8 +54,9 @@ header > ul > li:hover {
 main {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-start;
 	margin: 70px auto 20px auto;
-	max-width: 1200px;
+	max-width: 1250px;
 	height: calc(100vh - 50px);
 	padding: 5px;
 	background-color: #F7B357;
@@ -65,7 +66,9 @@ main {
 main > ul {
 	flex-grow: 1;
 	flex-basis: auto;
-	margin: 5px 18px 0 0;
+	max-width: 240px;
+	min-width: 240px;
+	padding: 5px;
 }
 
 main > ul > li {
@@ -88,25 +91,27 @@ main > ul > li:not(.active):hover {
 /* 内容显示 */
 main > section {
 	display: flex;
+	flex: 1;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 	align-content: flex-start;
-	max-width: 980px;
-	min-width: 240px;
+	max-width: 1200px;
+	/*min-width: 240px;*/
 	height: 100%;
 }
 
 main > section > article {
 	flex: 1;
-	width: 222px;
-	height: 80px;
+	max-width: 240px;
+	min-width: 240px;
+	height: 94px;
 	margin: 5px;
 	padding: 5px;
 	border: 1px solid #294E80;
+	box-sizing: border-box;
 }
 
 main > section > article > div {
-	width: 212px;
 	height: 40px;
 }
 
