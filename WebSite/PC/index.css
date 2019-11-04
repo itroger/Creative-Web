@@ -1,0 +1,136 @@
+/* 初始化 */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* 顶部信息 */
+header {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 50px;
+	background-color: #294E80;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+header > svg {
+	position: relative;
+	top: 7px;
+	left: 15px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+}
+
+header > ul {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+header > ul > li {
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+header > ul > li:hover {
+	color: #FFA700;
+}
+
+/* 内容 */
+main {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 70px auto 20px auto;
+	max-width: 1200px;
+	height: calc(100vh - 50px);
+	padding: 5px;
+	background-color: #F7B357;
+}
+
+/* 导航目录 */
+main > ul {
+	flex-grow: 1;
+	flex-basis: auto;
+	margin: 5px 18px 0 0;
+}
+
+main > ul > li {
+	height: 45px;
+	line-height: 45px;
+	padding: 0 10px;
+	border: 1px solid #333333;
+	cursor: pointer;
+}
+
+main > ul > li.active {
+	color: #FFF;
+	background-color: #294E80;
+}
+
+main > ul > li:not(.active):hover {
+	background-color: #DFE6F3;
+}
+
+/* 内容显示 */
+main > section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: flex-start;
+	max-width: 980px;
+	min-width: 240px;
+	height: 100%;
+}
+
+main > section > article {
+	flex: 1;
+	width: 222px;
+	height: 80px;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #294E80;
+}
+
+main > section > article > div {
+	width: 212px;
+	height: 40px;
+}
+
+main > section > article > p {
+	margin: 0;
+}
+
+main > section img {
+	float: left;
+	width: 36px;
+	height: 36px;
+}
+
+main > section span {
+	display: block;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+}
+
+
+/* 底部 */
+footer {
+	width: 100%;
+	height: 80px;
+	background-color: #F2F2F2;
+}
