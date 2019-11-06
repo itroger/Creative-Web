@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 db.website.insertMany([{
 id: 10001,
 url: "https://html.spec.whatwg.org/",
